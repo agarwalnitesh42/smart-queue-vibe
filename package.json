@@ -1,6 +1,6 @@
 {
     "name": "smart-queue-vibe",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Adaptive task queue for frontend and Node.js using reinforcement learning and queueing theory",
     "main": "dist/index.js",
     "module": "dist/index.mjs",

@@ -7,8 +7,8 @@ Adaptive task queue for frontend and Node.js that prioritizes asynchronous tasks
 npm install smart-queue-vibe
 ```
 
-## Usage
-# Frontend
+# Usage
+## Frontend
 ``` bash
 import { SmartQueue } from 'smart-queue-vibe';
 
@@ -28,7 +28,7 @@ queue.add({
   run: async () => (await fetch('/api/data')).json(),
 }).then(result => console.log(result));
 ```
-# Node.js
+## Node.js
 ``` bash
 const { SmartQueue } = require('smart-queue-vibe');
 
@@ -45,9 +45,9 @@ queue.add({
 ```
 
 ## Features
-# Dynamic task prioritization with Q-learning.
-# Real-time scheduling using queueing theory.
-# Visual debugger for frontend.
-# Lightweight (~10KB minified).
-# No dependencies.
+- Dynamic task prioritization with Q-learning.
+- Real-time scheduling using queueing theory.
+- Visual debugger for frontend.
+- Lightweight (~10KB minified).
+- No dependencies.
 
