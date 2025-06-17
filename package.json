@@ -1,0 +1,36 @@
+{
+    "name": "smart-queue-vibe",
+    "version": "1.0.0",
+    "description": "Adaptive task queue for frontend and Node.js using reinforcement learning and queueing theory",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "type": "module",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "rollup -c",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "queue",
+        "async",
+        "task",
+        "reinforcement-learning",
+        "queueing-theory",
+        "frontend",
+        "nodejs"
+    ],
+    "author": "Nitesh Agarwal",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "rollup": "^4.24.0",
+        "@rollup/plugin-commonjs": "^28.0.0",
+        "@rollup/plugin-node-resolve": "^15.3.0"
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ]
+}

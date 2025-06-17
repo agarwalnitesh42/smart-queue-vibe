@@ -1,0 +1,8 @@
+
+#### 4. Setup and Testing Instructions
+1. **Initialize Project**:
+   ```bash
+   mkdir smart-queue-vibe
+   cd smart-queue-vibe
+   npm init -y
+   npm install --save-dev jest rollup @rollup/plugin-commonjs @rollup/plugin-node-resolve
